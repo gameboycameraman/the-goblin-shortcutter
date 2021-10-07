@@ -1,0 +1,27 @@
+{
+  "name": "the-goblin-shortcutter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "jest --config ./jest.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gekographe/the-goblin-shortcutter.git"
+  },
+  "author": "Jean-Jacques Calbayrac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gekographe/the-goblin-shortcutter/issues"
+  },
+  "homepage": "https://github.com/gekographe/the-goblin-shortcutter#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "jest": "^27.2.4",
+    "nodemon": "^2.0.13"
+  }
+}
