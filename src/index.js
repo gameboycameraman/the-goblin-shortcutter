@@ -16,7 +16,7 @@ const theGoblinShortcutter = async (cardArgs) => {
   })
   .then(cardData => {
     return cardData;
-  });
+  }).catch(err => console.log("You have an error:", err));
 
   return card
 };
