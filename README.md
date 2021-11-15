@@ -1,19 +1,22 @@
 # The Goblin Shortcutter
 
-Welcome friend, I am the Goblin Shortcutter,
-And I will be your humble javascript helper,
-to find your way to the cards that you want.
-
 <div align="center">
   <img width="620" height="329" src="./img/goblin-shortcutter.jpg">
 </div>
-
-To use me is simple, 
-install me and require me,
+<br/>
+Welcome friend, I am the Goblin Shortcutter,<br/>
+And I will be your humble javascript helper,<br/>
+to find your way to the cards that you want.
+<br/><br/>
+To use me is simple, <br/>
+install me and require me,<br/>
 Then simply call me with the name that you want.
+<br/><br/>
 
 In the terminal:
-`npm i the-goblin-shortcutter`
+```
+npm i the-goblin-shortcutter
+```
 
 In your code:
 ```
@@ -23,8 +26,8 @@ card = goblinShortcutter("Krenko mob boss");
 console.log("This is your card:", card);
 ```
 
-I'll return to you as fast as possible,
-With a single name or list of names, 
+I'll return to you as fast as possible,<br/>
+With a single name or list of names, <br/>
 Depending on the match that I found.
 
 *Artwork by [Jesper Ejsing](http://jesperejsing.com/)*
