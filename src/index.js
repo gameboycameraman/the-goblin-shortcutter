@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 
 const theGoblinShortcutter = async (cardArgs) => {
-  
+
   const splitCardArgs = cardArgs.split(",");
   let card;
   let formatedCardName;
@@ -21,4 +21,4 @@ const theGoblinShortcutter = async (cardArgs) => {
   return card
 };
 
-module.exports = theGoblinShortcutter;
+export default theGoblinShortcutter;
