@@ -13,9 +13,9 @@ install me and import me,<br/>
 Then simply call me with the name that you want.<br/>
 <br/>
 Remember,<br/>
+
 I only make **promises**,<br/>
 And it can take time to fulfill them.<br/>
-<br/>
 
 In the terminal:
 ```
@@ -31,7 +31,7 @@ const testingCard = async () => {
   card = await theGoblinShortcutter("Krenko");
   // Looking for the boss above but it could be any other card name 
   console.log("This is your card:", card);
-  // you'll receive an object with one or multiple cards data object 
+  // you'll receive an object with one or multiple cards data 
 }
 
 testingCard();
